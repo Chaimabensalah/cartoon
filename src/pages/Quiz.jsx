@@ -38,9 +38,13 @@ const Quiz = () => {
 
   return (
     <div className="p-6 max-w-md mx-auto text-center">
+<<<<<<< HEAD
 
     <h1 className="text-2xl font-bold mb-6 text-blue-700">الشارة الكرتونية</h1>      
     <h2 className="text-xl font-bold mb-4">سؤال {current + 1} من {questions.length}</h2>
+=======
+      <h2 className="text-xl font-bold mb-4">سؤال {current + 1} من {questions.length}</h2>
+>>>>>>> 2b692539e0870a38093b0f827423a46341042b24
       <p className="text-lg mb-6">{questions[current].question}</p>
       <div className="grid gap-3">
         {questions[current].options.map((opt, idx) => (

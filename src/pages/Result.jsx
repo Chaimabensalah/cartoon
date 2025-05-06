@@ -6,9 +6,13 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
+<<<<<<< HEAD
     
     <div className="p-6 text-center">
         <h1 className="text-2xl font-bold mb-6 text-blue-700">الشارة الكرتونية</h1>      
+=======
+    <div className="p-6 text-center">
+>>>>>>> 2b692539e0870a38093b0f827423a46341042b24
       <h1 className="text-2xl font-bold mb-6">اختر الكرتون</h1>
       <div className="grid gap-4">
         {cartoons.map(name => (
